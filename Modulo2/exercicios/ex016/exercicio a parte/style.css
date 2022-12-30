@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body
+{
+background-image: radial-gradient(circle, #6F81E3,#86E9FA,#E6517F,#B0FB7B);
+background-attachment: fixed;
+}

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(82, 185, 137);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    
+}
+header{
+    background-color: rgb(28, 83, 58);
+    padding: 15px;
+    margin: 0px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+nav {
+    padding: 20px;
+    margin-bottom: 0px;
+    
+}
+nav > a{
+    text-decoration: none;
+    color: white;  
+    padding: 10px;
+}
+main{
+    background-color: white;
+    padding: 12px;
+    margin: 0px 136px 46px 136px;
+    border-radius: 3px;
+}
+article > h1{
+    color: rgb(12, 73, 6);
+    font-size: 15px;
+    text-align: left;
+}
+article > h2{
+    color: rgb(12, 73, 6);
+    font-size: 15px;
+    text-align: left;
+}
+article > h3{
+    color: rgb(12, 73, 6);
+    font-size: 15px;
+    text-align: left;
+}
+img{
+    margin: auto;
+    display: block;
+
+}
+iframe{
+    margin: auto;
+    display: block;
+}

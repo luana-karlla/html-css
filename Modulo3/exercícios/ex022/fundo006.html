@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+           /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover; /*ideal neste caso usar escritos como contain e cover do q px e %*/
+            background-repeat: no-repeat;*/
+            /*background-size: cover; */ /*ideal neste caso usar escritos como contain e cover do q px e %*/
+           /* background-attachment: fixed;*/ 
+
+            /*shorthand-background
+                Que funciona atualmente
+                color > image > repeat > fixed > positon/size
+            */
+            background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center/cover;
+            
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border:  1px solid darkblue;
@@ -28,7 +36,8 @@
    <!--Atividade que chega perto do que seria um site-->
    <main>
     <h1>Teste de imagem de fundo</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. 
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illo quos rem est facilis commodi culpa aliquam repellat tempore esse debitis doloremque, ipsam vitae tenetur porro non nulla ex quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt officiis quo recusandae reprehenderit ut natus qui neque quidem harum officia saepe velit labore dolore, nesciunt delectus cupiditate voluptate consectetur</p>
    </main>
 </body>
 </html>

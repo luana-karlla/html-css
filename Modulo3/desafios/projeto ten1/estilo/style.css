@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#wallpp{
+    background-image: url('../imagem/img01.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#bg01{
+    background-image: url('../imagem/img02.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    min-height: 150px;
+    padding: 10px 20px 20px 20px;
+}
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px 20px 2px;
+}
+header h3{
+    font-size: 1em;
+    color: white;   
+}
+
+header a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+      
+}
+header a:hover{
+    text-decoration: underline;
+    color: white;
+}
+main{
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 10px 30px 60px;
+}
+
+main section{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 100px;
+    
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0px;
+
+}

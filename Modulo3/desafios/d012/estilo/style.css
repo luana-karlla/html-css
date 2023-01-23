@@ -56,6 +56,9 @@ section{
     font-size: 3.5vw;
     
 }
+section > p{
+    padding: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -63,12 +66,23 @@ section.normal{
 section.imagem{
     background-color: rgb(51, 47, 47);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > pre{ /*para criar a caixa e do tipo transparente*/
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
-
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black; /*sombra na letra*/
+}
+section#img01{
+    background-image: url('../imagem/img01.jpg') ;
+    background-position: right center;
+    
+}
+section#img02{
+    background-image: url('../imagem/img02.jpg');
+   
 }
 
 footer{

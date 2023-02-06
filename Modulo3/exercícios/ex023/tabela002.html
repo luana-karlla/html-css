@@ -19,9 +19,22 @@
             border: 1px solid black;
             padding: 10px;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(65, 101, 168);
+            color: white;
+        }
         thead, tfoot{
             background-color: rgb(43, 68, 114);
             color: white;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightblue;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: white;
         }
         td.num{
             text-align: right;
@@ -32,6 +45,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!--Anatomia para tabelas grandes
     Table
+        Caption
         thead
             tr,td,th
         tbody
@@ -40,10 +54,11 @@
             tr,td,th
 -->
     <table>
+        <Caption>População das Unidades Federativas</Caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -158,7 +173,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>207.883.699</strong></td>
             </tr>
         </tfoot>

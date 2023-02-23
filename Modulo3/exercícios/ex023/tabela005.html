@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .destaque{
+            background-color: aqua;
+        }
+        col.cnome{
+            background-color: aqua;
+        }
+        .amarelo{
+            background-color: yellow;
+        }
+        .azulCelete{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <!--span uso para extender para duas colunas-->
+            <col class="amarelo">
+            <col class="azulCelete" span="2">
+            <col class="amarelo">
+            <col class="azulCelete">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Julio</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Luana</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Desenvolvedorea Front-End</td>
+        </tr>
+        <tr>
+            <td>Paula</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Vendedora</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>M</td>
+            <td>55</td>
+            <td>Dentista</td>
+        </tr>
+    </table>
+</body>
+</html>

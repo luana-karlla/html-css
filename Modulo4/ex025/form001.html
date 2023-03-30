@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form autocomplete="off" method="post" action="cadastro.php"><!--para nviar dados action="cadastro.php" -->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+<!--para o navegador entender que o nome esta ligado a caixa, e isso se da atraves do label(as estiquetas)-->
+
+<!--diferença entre name e id:name: mais util para html e php  e id: para javascript e label-->
+
+<!--guanabara falou que label e importante, eu tenho que usar a label para fazer a realação ao objeto de formulário e a etiqueta dele, a relação entre um e outro-->
+    <h1>Praticando formulários</h1>
+    <form autocomplete="off" action="cadastro.php">
+        <p><label for="iendereco">Endereço:</label> <input type="text" name="endereco" id="iendereco"></p>
+        <p><label for="icidade">Cidade:</label> <input type="text" name="cidade" id="icidade"></p>
+        <p><label for="iestado">Estado:</label> <input type="text" name="estado" id="iestado"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>

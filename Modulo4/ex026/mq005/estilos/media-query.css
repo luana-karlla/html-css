@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    span#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+
+    /*quando aumentar a tela deixar o menu do lado do outro*/
+    menu > ul > li{
+        display: inline-block;
+    }
+
+    /*Para telas grandes, para uma bola leitura*/
+    /*Quando a tela for grande a tela continuará 768px*/
+    main{
+        width: 768px;
+    }
+}
